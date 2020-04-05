@@ -1,0 +1,12 @@
+logs
+node_modules
+package-lock.json
+npm-debug.log
+coverage/
+run
+dist
+public
+.DS_Store
+.nyc_output
+.idea
+www

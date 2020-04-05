@@ -1,0 +1,41 @@
+{
+  "name": "umi-number-format",
+  "version": "1.0.0",
+  "description": "A number format tool for various scenes in the project",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "dev": "rollup -w -c ./build/rollup.config.dev.js",
+    "build": "rollup -c ./build/rollup.config.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "rollup-plugin-eslint": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-classes": "^7.9.2",
+    "@babel/preset-env": "^7.9.0",
+    "rollup": "^2.3.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-livereload": "^1.1.0",
+    "rollup-plugin-postcss": "^2.5.0",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-terser": "^5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boychina/umi-number-format.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boychina/umi-number-format/issues"
+  },
+  "homepage": "https://github.com/boychina/umi-number-format#readme"
+}
